@@ -72,15 +72,6 @@
             android:orientation="vertical"
             android:padding="16dp">
 
-            <TextView
-                android:id="@+id/tvWelcome"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:text="Chào mừng đến ứng dụng"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
             <Button
                 android:id="@+id/btnEvenOdd"
                 android:layout_width="wrap_content"
@@ -93,14 +84,6 @@
                 android:layout_height="wrap_content"
                 android:hint="Nhập chuỗi ký tự"
                 android:inputType="text" />
-
-            <TextView
-                android:id="@+id/Result"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="Kết quả sẽ hiển thị ở đây"
-                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/btnProcess"
@@ -161,7 +144,6 @@
 
         <!-- Button để xử lý -->
 
-        <!-- TextView để hiển thị kết quả -->
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

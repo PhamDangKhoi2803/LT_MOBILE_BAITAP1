@@ -104,7 +104,6 @@ public class MainActivity extends AppCompatActivity {
         // Ánh xạ các view
         EditText edtInput = findViewById(R.id.edtInput);
         Button btnProcess = findViewById(R.id.btnProcess);
-        TextView Result = findViewById(R.id.Result);
 
         // Sự kiện khi nhấn nút "Đảo ngược và in hoa"
         btnProcess.setOnClickListener(v -> {
@@ -115,9 +114,6 @@ public class MainActivity extends AppCompatActivity {
             if (!inputText.isEmpty()) {
                 // Đảo ngược chuỗi và chuyển thành in hoa
                 String reversedText = reverseAndUppercase(inputText);
-
-                // Hiển thị kết quả trên TextView
-                Result.setText(reversedText);
 
                 // Hiển thị kết quả dưới dạng Toast
                 Toast.makeText(MainActivity.this, reversedText, Toast.LENGTH_LONG).show();
